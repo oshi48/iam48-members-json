@@ -1,0 +1,32 @@
+name: Fetch API and Commit
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  fetch_and_commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch data and generate JSON
+        run: node fetch.js
+
+      - name: Commit and push if changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email ""
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Update members JSON"
+          git push
