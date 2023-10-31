@@ -89,29 +89,6 @@
     "graduatedAt": null
   },
   {
-    "id": 4,
-    "codeName": "cherprang",
-    "displayName": "เฌอปราง",
-    "displayNameEn": "CHERPRANG",
-    "subtitle": "เฌอปราง อารีย์กุล",
-    "subtitleEn": "Cherprang Areekul",
-    "profileImageUrl": "https://img.bnk48cdn.net/member/4/profile-d965eb23491945bb8f23509fa55052a6.jpg",
-    "coverImageUrl": "https://img.bnk48cdn.net/member/4/cover-2474e3099f594c3a9f67d4007f265a75.jpg",
-    "caption": "✨🐈‍⬛ CC_CCherprang",
-    "formalDisplayName": "Cherprang",
-    "city": "กรุงเทพมหานคร",
-    "cityEn": "Bangkok",
-    "country": "TH",
-    "countryEn": "TH",
-    "brand": "BNK48",
-    "hashtags": [
-      "CHERPRANGBNK48",
-      "BNK48"
-    ],
-    "birthdate": "1996-05-02",
-    "graduatedAt": null
-  },
-  {
     "id": 78,
     "codeName": "earn",
     "displayName": "เอิร์น",
@@ -1580,6 +1557,29 @@
     ],
     "birthdate": "2004-11-10",
     "graduatedAt": null
+  },
+  {
+    "id": 4,
+    "codeName": "cherprang",
+    "displayName": "เฌอปราง",
+    "displayNameEn": "CHERPRANG",
+    "subtitle": "เฌอปราง อารีย์กุล",
+    "subtitleEn": "Cherprang Areekul",
+    "profileImageUrl": "https://img.bnk48cdn.net/member/4/profile-d965eb23491945bb8f23509fa55052a6.jpg",
+    "coverImageUrl": "https://img.bnk48cdn.net/member/4/cover-2474e3099f594c3a9f67d4007f265a75.jpg",
+    "caption": "✨🐈‍⬛ CC_CCherprang",
+    "formalDisplayName": "Cherprang",
+    "city": "กรุงเทพมหานคร",
+    "cityEn": "Bangkok",
+    "country": "TH",
+    "countryEn": "TH",
+    "brand": "BNK48",
+    "hashtags": [
+      "CHERPRANGBNK48",
+      "BNK48"
+    ],
+    "birthdate": "1996-05-02",
+    "graduatedAt": "2023-10-29"
   },
   {
     "id": 116,
