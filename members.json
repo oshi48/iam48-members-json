@@ -19,6 +19,7 @@
       "ANGELCGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2002-04-06",
     "graduatedAt": null
   },
@@ -42,6 +43,7 @@
       "AOMCGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1995-09-20",
     "graduatedAt": null
   },
@@ -62,6 +64,7 @@
     "countryEn": "TH",
     "brand": "BNK48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2005-07-23",
     "graduatedAt": null
   },
@@ -85,6 +88,7 @@
       "CHAMPOOCGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2005-10-10",
     "graduatedAt": null
   },
@@ -108,6 +112,7 @@
       "EARNBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1998-12-03",
     "graduatedAt": null
   },
@@ -131,6 +136,7 @@
       "EARTHBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2002-04-22",
     "graduatedAt": null
   },
@@ -151,6 +157,7 @@
     "countryEn": "TH",
     "brand": "CGM48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2004-02-12",
     "graduatedAt": null
   },
@@ -171,6 +178,7 @@
     "countryEn": "TH",
     "brand": "BNK48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2007-09-13",
     "graduatedAt": null
   },
@@ -194,6 +202,7 @@
       "EVEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2003-01-22",
     "graduatedAt": null
   },
@@ -217,6 +226,7 @@
       "FAHSAICGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2007-05-23",
     "graduatedAt": null
   },
@@ -240,6 +250,7 @@
       "FAMEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2004-10-15",
     "graduatedAt": null
   },
@@ -263,6 +274,7 @@
       "FONDBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2002-12-03",
     "graduatedAt": null
   },
@@ -286,6 +298,7 @@
       "FORTUNECGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1999-08-18",
     "graduatedAt": null
   },
@@ -306,6 +319,7 @@
     "countryEn": "TH",
     "brand": "CGM48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2006-12-10",
     "graduatedAt": null
   },
@@ -329,6 +343,7 @@
       "GRACEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2003-08-02",
     "graduatedAt": null
   },
@@ -352,6 +367,7 @@
       "GYGEEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2001-10-04",
     "graduatedAt": null
   },
@@ -375,6 +391,7 @@
       "HOOPBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2002-09-18",
     "graduatedAt": null
   },
@@ -398,6 +415,7 @@
       "IZURINACGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1995-11-26",
     "graduatedAt": null
   },
@@ -418,6 +436,7 @@
     "countryEn": "TH",
     "brand": "BNK48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2008-01-03",
     "graduatedAt": null
   },
@@ -441,6 +460,7 @@
       "JAOKHEMBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2003-10-12",
     "graduatedAt": null
   },
@@ -461,6 +481,7 @@
     "countryEn": "TH",
     "brand": "CGM48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2002-01-30",
     "graduatedAt": null
   },
@@ -484,6 +505,7 @@
       "JJAECGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2006-07-27",
     "graduatedAt": null
   },
@@ -507,6 +529,7 @@
       "KAIWANCGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2004-01-06",
     "graduatedAt": null
   },
@@ -530,6 +553,7 @@
       "KANINGCGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2004-12-15",
     "graduatedAt": null
   },
@@ -553,6 +577,7 @@
       "KAOFRANGBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2002-11-15",
     "graduatedAt": null
   },
@@ -576,6 +601,7 @@
       "KHAMINBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1999-04-23",
     "graduatedAt": null
   },
@@ -599,6 +625,7 @@
       "KYLACGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2007-01-25",
     "graduatedAt": null
   },
@@ -619,6 +646,7 @@
     "countryEn": "TH",
     "brand": "BNK48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2003-02-13",
     "graduatedAt": null
   },
@@ -642,6 +670,7 @@
       "LATINCGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2006-01-28",
     "graduatedAt": null
   },
@@ -662,6 +691,7 @@
     "countryEn": "TH",
     "brand": "CGM48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2000-07-06",
     "graduatedAt": null
   },
@@ -682,6 +712,7 @@
     "countryEn": "TH",
     "brand": "BNK48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2006-04-29",
     "graduatedAt": null
   },
@@ -705,6 +736,7 @@
       "MARMINKCGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1999-11-07",
     "graduatedAt": null
   },
@@ -728,6 +760,7 @@
       "MEANBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2007-07-08",
     "graduatedAt": null
   },
@@ -751,6 +784,7 @@
       "MEENCGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2003-03-05",
     "graduatedAt": null
   },
@@ -774,6 +808,7 @@
       "MEICGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2004-09-16",
     "graduatedAt": null
   },
@@ -794,6 +829,7 @@
     "countryEn": "TH",
     "brand": "BNK48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2007-06-12",
     "graduatedAt": null
   },
@@ -817,6 +853,7 @@
       "MILKCGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2005-12-06",
     "graduatedAt": null
   },
@@ -840,6 +877,7 @@
       "MINMINBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1997-03-20",
     "graduatedAt": null
   },
@@ -863,6 +901,7 @@
       "MIORIBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1998-09-30",
     "graduatedAt": null
   },
@@ -886,6 +925,7 @@
       "MONETBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2008-08-04",
     "graduatedAt": null
   },
@@ -909,6 +949,7 @@
       "MYYUBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1999-10-28",
     "graduatedAt": null
   },
@@ -929,6 +970,7 @@
     "countryEn": "TH",
     "brand": "CGM48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2003-02-27",
     "graduatedAt": null
   },
@@ -952,6 +994,7 @@
       "NENACGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2000-09-12",
     "graduatedAt": null
   },
@@ -972,6 +1015,7 @@
     "countryEn": "TH",
     "brand": "BNK48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2001-03-14",
     "graduatedAt": null
   },
@@ -995,6 +1039,7 @@
       "NENIECGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2002-11-01",
     "graduatedAt": null
   },
@@ -1018,6 +1063,7 @@
       "NEWBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2003-01-02",
     "graduatedAt": null
   },
@@ -1041,6 +1087,7 @@
       "NIKYBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2005-01-26",
     "graduatedAt": null
   },
@@ -1064,6 +1111,7 @@
       "NINEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2000-11-11",
     "graduatedAt": null
   },
@@ -1087,6 +1135,7 @@
       "PAEYAHBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2005-05-14",
     "graduatedAt": null
   },
@@ -1110,6 +1159,7 @@
       "PAKWANBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2000-02-18",
     "graduatedAt": null
   },
@@ -1130,6 +1180,7 @@
     "countryEn": "TH",
     "brand": "BNK48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2003-10-28",
     "graduatedAt": null
   },
@@ -1153,6 +1204,7 @@
       "PANCAKEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2007-02-06",
     "graduatedAt": null
   },
@@ -1176,6 +1228,7 @@
       "PANDABNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1997-10-10",
     "graduatedAt": null
   },
@@ -1196,6 +1249,7 @@
     "countryEn": "TH",
     "brand": "CGM48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2007-08-17",
     "graduatedAt": null
   },
@@ -1216,6 +1270,7 @@
     "countryEn": "TH",
     "brand": "BNK48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2008-06-17",
     "graduatedAt": null
   },
@@ -1239,6 +1294,7 @@
       "PEAKBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2004-04-02",
     "graduatedAt": null
   },
@@ -1262,6 +1318,7 @@
       "PHUKKHOMBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1998-02-28",
     "graduatedAt": null
   },
@@ -1285,6 +1342,7 @@
       "PIMCGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2005-12-25",
     "graduatedAt": null
   },
@@ -1308,6 +1366,7 @@
       "PINGCGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2003-07-25",
     "graduatedAt": null
   },
@@ -1331,6 +1390,7 @@
       "POPPERBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1998-09-13",
     "graduatedAt": null
   },
@@ -1354,6 +1414,7 @@
       "PUNCHCGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2006-02-16",
     "graduatedAt": null
   },
@@ -1377,6 +1438,7 @@
       "RATAHBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2002-03-27",
     "graduatedAt": null
   },
@@ -1400,6 +1462,7 @@
       "SATCHANBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2003-12-13",
     "graduatedAt": null
   },
@@ -1420,6 +1483,7 @@
     "countryEn": "TH",
     "brand": "BNK48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2009-04-03",
     "graduatedAt": null
   },
@@ -1443,6 +1507,7 @@
       "SITACGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2003-06-25",
     "graduatedAt": null
   },
@@ -1466,6 +1531,7 @@
       "STANGBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2003-10-22",
     "graduatedAt": null
   },
@@ -1486,6 +1552,7 @@
     "countryEn": "TH",
     "brand": "BNK48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2009-08-11",
     "graduatedAt": null
   },
@@ -1509,6 +1576,7 @@
       "WEEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2001-10-23",
     "graduatedAt": null
   },
@@ -1532,6 +1600,7 @@
       "YAYEEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2001-10-09",
     "graduatedAt": null
   },
@@ -1555,6 +1624,7 @@
       "YOGHURTBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2004-11-10",
     "graduatedAt": null
   },
@@ -1578,6 +1648,7 @@
       "CHERPRANGBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1996-05-02",
     "graduatedAt": "2023-10-29"
   },
@@ -1598,6 +1669,7 @@
     "countryEn": "TH",
     "brand": "CGM48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2006-02-10",
     "graduatedAt": "2023-10-08"
   },
@@ -1621,6 +1693,7 @@
       "JAYDACGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2006-12-16",
     "graduatedAt": "2023-10-06"
   },
@@ -1644,6 +1717,7 @@
       "PARIMACGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2005-07-29",
     "graduatedAt": "2023-08-14"
   },
@@ -1667,6 +1741,7 @@
       "PIMBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2006-02-26",
     "graduatedAt": "2023-01-14"
   },
@@ -1690,6 +1765,7 @@
       "KAEWBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1994-03-31",
     "graduatedAt": "2022-11-26"
   },
@@ -1713,6 +1789,7 @@
       "KATEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2001-06-09",
     "graduatedAt": "2022-11-19"
   },
@@ -1736,6 +1813,7 @@
       "MINDBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2001-09-06",
     "graduatedAt": "2022-11-19"
   },
@@ -1759,6 +1837,7 @@
       "PUPEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1998-01-18",
     "graduatedAt": "2022-11-19"
   },
@@ -1782,6 +1861,7 @@
       "NAMNEUNGBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1996-11-11",
     "graduatedAt": "2022-11-12"
   },
@@ -1805,6 +1885,7 @@
       "PIAMBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2003-06-04",
     "graduatedAt": "2022-11-05"
   },
@@ -1828,6 +1909,7 @@
       "NOEYBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1997-04-09",
     "graduatedAt": "2022-10-29"
   },
@@ -1851,6 +1933,7 @@
       "PUNBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2000-11-09",
     "graduatedAt": "2022-10-29"
   },
@@ -1874,6 +1957,7 @@
       "TARWAANBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1996-12-18",
     "graduatedAt": "2022-10-29"
   },
@@ -1897,6 +1981,7 @@
       "JANEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2000-03-23",
     "graduatedAt": "2022-10-22"
   },
@@ -1920,6 +2005,7 @@
       "JAABNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2003-01-20",
     "graduatedAt": "2022-10-21"
   },
@@ -1943,6 +2029,7 @@
       "ORNBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1997-02-03",
     "graduatedAt": "2022-10-19"
   },
@@ -1966,6 +2053,7 @@
       "NAMSAIBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1999-10-26",
     "graduatedAt": "2022-10-15"
   },
@@ -1989,6 +2077,7 @@
       "JIBBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2002-07-04",
     "graduatedAt": "2022-10-08"
   },
@@ -2012,6 +2101,7 @@
       "KORNBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1999-01-21",
     "graduatedAt": "2022-10-08"
   },
@@ -2035,6 +2125,7 @@
       "JENNISBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2000-07-04",
     "graduatedAt": "2022-10-07"
   },
@@ -2058,6 +2149,7 @@
       "KAIMOOKBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1997-08-27",
     "graduatedAt": "2022-10-01"
   },
@@ -2081,6 +2173,7 @@
       "MOBILEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2002-07-09",
     "graduatedAt": "2022-09-30"
   },
@@ -2104,6 +2197,7 @@
       "VIEWBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2004-05-28",
     "graduatedAt": "2022-05-11"
   },
@@ -2127,6 +2221,7 @@
       "BAMBOOBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2002-09-03",
     "graduatedAt": "2022-04-23"
   },
@@ -2150,6 +2245,7 @@
       "MUSICBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2001-02-24",
     "graduatedAt": "2022-04-03"
   },
@@ -2173,6 +2269,7 @@
       "PEPOCGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2006-09-21",
     "graduatedAt": "2022-03-12"
   },
@@ -2196,6 +2293,7 @@
       "NICHACGM48",
       "CGM48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2004-08-26",
     "graduatedAt": "2021-12-11"
   },
@@ -2219,6 +2317,7 @@
       "MEWNICHBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2002-03-11",
     "graduatedAt": "2021-09-30"
   },
@@ -2242,6 +2341,7 @@
       "PAMPAMBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2003-07-03",
     "graduatedAt": "2021-03-30"
   },
@@ -2265,6 +2365,7 @@
       "FAIIBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1996-06-28",
     "graduatedAt": "2021-03-18"
   },
@@ -2288,6 +2389,7 @@
       "JEJEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2005-09-11",
     "graduatedAt": "2021-03-18"
   },
@@ -2311,6 +2413,7 @@
       "FIFABNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2001-11-06",
     "graduatedAt": "2021-01-14"
   },
@@ -2334,6 +2437,7 @@
       "KHENGBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2000-03-26",
     "graduatedAt": "2021-01-14"
   },
@@ -2357,6 +2461,7 @@
       "JUNÉBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2000-07-04",
     "graduatedAt": "2020-06-10"
   },
@@ -2380,6 +2485,7 @@
       "NINKBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2000-02-03",
     "graduatedAt": "2020-03-24"
   },
@@ -2403,6 +2509,7 @@
       "NATHERINEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1999-11-11",
     "graduatedAt": "2020-02-15"
   },
@@ -2426,6 +2533,7 @@
       "OOMBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2002-09-29",
     "graduatedAt": "2020-02-15"
   },
@@ -2449,6 +2557,7 @@
       "MAIRABNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1997-02-24",
     "graduatedAt": "2019-12-06"
   },
@@ -2472,6 +2581,7 @@
       "CAKEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "1996-11-18",
     "graduatedAt": "2019-09-26"
   },
@@ -2495,6 +2605,7 @@
       "DEENEEBNK48",
       "BNK48"
     ],
+    "isGiftEnabled": true,
     "birthdate": "2001-11-28",
     "graduatedAt": "2019-08-10"
   },
@@ -2515,6 +2626,7 @@
     "countryEn": "TH",
     "brand": "BNK48",
     "hashtags": null,
+    "isGiftEnabled": false,
     "birthdate": "2020-03-25",
     "graduatedAt": null
   },
@@ -2535,6 +2647,7 @@
     "countryEn": "TH",
     "brand": "CGM48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2021-04-20",
     "graduatedAt": null
   },
@@ -2555,6 +2668,7 @@
     "countryEn": "TH",
     "brand": "CGM48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2021-04-11",
     "graduatedAt": null
   },
@@ -2575,6 +2689,7 @@
     "countryEn": "TH",
     "brand": "CGM48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2021-02-01",
     "graduatedAt": null
   },
@@ -2595,6 +2710,7 @@
     "countryEn": "TH",
     "brand": "CGM48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2021-04-24",
     "graduatedAt": null
   },
@@ -2615,6 +2731,7 @@
     "countryEn": "TH",
     "brand": "CGM48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "0201-04-28",
     "graduatedAt": null
   },
@@ -2635,6 +2752,7 @@
     "countryEn": "TH",
     "brand": "CGM48",
     "hashtags": null,
+    "isGiftEnabled": true,
     "birthdate": "2021-03-04",
     "graduatedAt": null
   }
