@@ -449,7 +449,7 @@
     "subtitleEn": "Kalnyarat Panphiphat",
     "profileImageUrl": "https://img.bnk48cdn.net/member/106/profile-d41b2e1a450d4f24a2ee9789997aaf56.jpg",
     "coverImageUrl": "https://img.bnk48cdn.net/member/106/cover-26e703a83f4c4de5a20761ee9c951cd9.jpg",
-    "caption": "จิ๋วเองจ้า 🦌",
+    "caption": "หวัดดี จิ๋วเอง 🐶🐹",
     "formalDisplayName": "Janry",
     "city": null,
     "cityEn": null,
@@ -537,7 +537,7 @@
     "displayNameEn": "KAIWAN",
     "subtitle": "มานิตา จันทร์ฉาย",
     "subtitleEn": "Manita Chanchai",
-    "profileImageUrl": "https://img.bnk48cdn.net/member/57/profile-6bf9a277b1e1476b9bbfa8b6294835c8.jpg",
+    "profileImageUrl": "https://img.bnk48cdn.net/member/57/profile-5a634adac3814bceba81a9853d305c69.jpg",
     "coverImageUrl": "https://img.bnk48cdn.net/member/57/cover-91cfc5e2de134c50970bad40105df604.jpg",
     "caption": "💄💋",
     "formalDisplayName": "Kaiwan",
@@ -900,30 +900,6 @@
     ],
     "isGiftEnabled": true,
     "birthdate": "1997-03-20",
-    "graduatedAt": null
-  },
-  {
-    "id": 15,
-    "codeName": "miori",
-    "displayName": "มิโอริ",
-    "displayNameEn": "MIORI",
-    "subtitle": "มิโอริ โอคุโบะ",
-    "subtitleEn": "Miori Ohkubo",
-    "profileImageUrl": "https://img.bnk48cdn.net/member/15/profile-06b1799ecd974a94a02a064bb528a6b2.jpg",
-    "coverImageUrl": "https://img.bnk48cdn.net/member/15/cover-b8722a4f51d4420d8391925ea2294f7f.jpg",
-    "caption": "ร้องเพลง",
-    "formalDisplayName": "Miori",
-    "city": "อิบารากิ",
-    "cityEn": "Ibaraki, Japan",
-    "country": "JP",
-    "countryEn": "JP",
-    "brand": "BNK48",
-    "hashtags": [
-      "MIORIBNK48",
-      "BNK48"
-    ],
-    "isGiftEnabled": true,
-    "birthdate": "1998-09-30",
     "graduatedAt": null
   },
   {
@@ -1717,6 +1693,30 @@
     "isGiftEnabled": true,
     "birthdate": "2006-12-16",
     "graduatedAt": "2023-10-06"
+  },
+  {
+    "id": 15,
+    "codeName": "miori",
+    "displayName": "มิโอริ",
+    "displayNameEn": "MIORI",
+    "subtitle": "มิโอริ โอคุโบะ",
+    "subtitleEn": "Miori Ohkubo",
+    "profileImageUrl": "https://img.bnk48cdn.net/member/15/profile-06b1799ecd974a94a02a064bb528a6b2.jpg",
+    "coverImageUrl": "https://img.bnk48cdn.net/member/15/cover-b8722a4f51d4420d8391925ea2294f7f.jpg",
+    "caption": "ร้องเพลง",
+    "formalDisplayName": "Miori",
+    "city": "อิบารากิ",
+    "cityEn": "Ibaraki, Japan",
+    "country": "JP",
+    "countryEn": "JP",
+    "brand": "BNK48",
+    "hashtags": [
+      "MIORIBNK48",
+      "BNK48"
+    ],
+    "isGiftEnabled": false,
+    "birthdate": "1998-09-30",
+    "graduatedAt": "2023-09-15"
   },
   {
     "id": 68,
