@@ -855,30 +855,6 @@
     "graduatedAt": null
   },
   {
-    "id": 62,
-    "codeName": "milk",
-    "displayName": "มิลค์",
-    "displayNameEn": "MILK",
-    "subtitle": "ชญานันท์ เจ็ดพี่น้องร่วมใจ",
-    "subtitleEn": "Chayanan Jedpeenongruamjai",
-    "profileImageUrl": "https://img.bnk48cdn.net/member/62/profile-e5f23650177c404d80b56dfb893c41b5.jpg",
-    "coverImageUrl": "https://img.bnk48cdn.net/member/62/cover-13514707f78842da951a2b34a6dd28e8.jpg",
-    "caption": "เล่นกีตาร์",
-    "formalDisplayName": "Milk",
-    "city": "นครปฐม",
-    "cityEn": "Nakhon Pathom",
-    "country": "TH",
-    "countryEn": "TH",
-    "brand": "CGM48",
-    "hashtags": [
-      "MILKCGM48",
-      "CGM48"
-    ],
-    "isGiftEnabled": true,
-    "birthdate": "2005-12-06",
-    "graduatedAt": null
-  },
-  {
     "id": 39,
     "codeName": "minmin",
     "displayName": "มินมิน",
@@ -1624,6 +1600,30 @@
     "isGiftEnabled": true,
     "birthdate": "2004-11-10",
     "graduatedAt": null
+  },
+  {
+    "id": 62,
+    "codeName": "milk",
+    "displayName": "มิลค์",
+    "displayNameEn": "MILK",
+    "subtitle": "ชญานันท์ เจ็ดพี่น้องร่วมใจ",
+    "subtitleEn": "Chayanan Jedpeenongruamjai",
+    "profileImageUrl": "https://img.bnk48cdn.net/member/62/profile-e5f23650177c404d80b56dfb893c41b5.jpg",
+    "coverImageUrl": "https://img.bnk48cdn.net/member/62/cover-13514707f78842da951a2b34a6dd28e8.jpg",
+    "caption": "เล่นกีตาร์",
+    "formalDisplayName": "Milk",
+    "city": "นครปฐม",
+    "cityEn": "Nakhon Pathom",
+    "country": "TH",
+    "countryEn": "TH",
+    "brand": "CGM48",
+    "hashtags": [
+      "MILKCGM48",
+      "CGM48"
+    ],
+    "isGiftEnabled": false,
+    "birthdate": "2005-12-06",
+    "graduatedAt": "2024-01-10"
   },
   {
     "id": 4,
