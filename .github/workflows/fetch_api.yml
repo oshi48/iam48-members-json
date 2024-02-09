@@ -23,10 +23,24 @@ jobs:
       - name: Fetch data and generate JSON
         run: node fetch.js
 
+      - name: Check for changes
+        id: check_changes
+        run: |
+          changes=$(git diff-index --name-only HEAD)
+          echo "::set-output name=changes::$changes"
+
       - name: Commit and push if changes
+        if: steps.check_changes.outputs.changes != ''
         run: |
           git config user.name "github-actions"
           git config user.email ""
           git add .
-          git diff-index --quiet HEAD || git commit -m "Update members JSON"
+          git commit -m "Update members JSON"
           git push
+
+      - name: Update data
+        if: steps.check_changes.outputs.changes != ''
+        env:
+          URL: ${{ secrets.URL }}
+          KEY: ${{ secrets.KEY }}
+        run: node update.js
