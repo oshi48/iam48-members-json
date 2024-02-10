@@ -27,7 +27,7 @@ jobs:
         id: check_changes
         run: |
           changes=$(git diff-index --name-only HEAD)
-          echo "::set-output name=changes::$changes"
+          echo "changes=$changes" >> $GITHUB_OUTPUT
 
       - name: Commit and push if changes
         if: steps.check_changes.outputs.changes != ''
