@@ -25,9 +25,7 @@ jobs:
 
       - name: Check for changes
         id: check_changes
-        run: |
-          changes=$(git diff-index --name-only HEAD)
-          echo "changes=$changes" >> $GITHUB_OUTPUT
+        run: git diff-index --quiet HEAD || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push if changes
         if: steps.check_changes.outputs.changes != ''
