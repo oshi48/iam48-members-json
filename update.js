@@ -5,14 +5,6 @@ const URL = process.env.URL;
 const KEY = process.env.KEY;
 const filePath = "members.json";
 
-const countResults = (results) => {
-  return results.reduce((counts, item) => {
-    const action = item.action;
-    counts[action] = (counts[action] || 0) + 1;
-    return counts;
-  }, {});
-};
-
 const main = async () => {
   try {
     const data = fs.readFileSync(filePath, "utf8");
@@ -65,9 +57,9 @@ const main = async () => {
 
       try {
         const res = await axios.post(URL, payload, { headers });
-        const cnt = countResults(res.data.result.data);
-        console.log(`# ${idx + 1} : ${JSON.stringify(cnt)}\n`);
-        results.push(cnt);
+        const total = res.data.result?.total;
+        console.log(`# ${idx + 1} : ${JSON.stringify(total)}\n`);
+        results.push(total);
       } catch (err) {
         console.error("Error:", err.message);
         continue;
