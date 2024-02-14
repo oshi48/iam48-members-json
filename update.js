@@ -66,9 +66,9 @@ const main = async () => {
       }
     }
     const totalUpdate =
-      results.reduce((sum, result) => sum + result?.update, 0) || 0;
+      results.reduce((sum, result) => sum + (result?.update || 0), 0);
     const totalCreate =
-      results.reduce((sum, result) => sum + result?.create, 0) || 0;
+      results.reduce((sum, result) => sum + (result?.create || 0), 0);
     console.log(`Total update: ${totalUpdate}`);
     console.log(`Total create: ${totalCreate}`);
   } catch (err) {
