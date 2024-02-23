@@ -18,14 +18,27 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          sudo apt install -y gron
+          npm install
 
       - name: Fetch data and generate JSON
         run: node fetch.js
 
       - name: Check for changes
         id: check_changes
-        run: git diff --quiet HEAD || echo "changes=true" >> $GITHUB_OUTPUT
+        run: git diff --quiet members.json || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Update data
+        if: steps.check_changes.outputs.changes == 'true'
+        env:
+          URL: ${{ secrets.URL }}
+          KEY: ${{ secrets.KEY }}
+        run: |
+          git config --local diff.gron.textconv gron
+          diff=$(git diff --color=always members.json | perl -wlne 'print $1 if /^\e\[32m\+\e\[m\e\[32m(.*)\e\[m$/')
+          index=$(echo "$diff" | awk -F '[][]' '{print $2}' | sort -n | uniq | tr '\n' ' ')
+          node update.js $index
 
       - name: Commit and push if changes
         if: steps.check_changes.outputs.changes == 'true'
@@ -35,10 +48,3 @@ jobs:
           git add .
           git commit -m "Update members JSON"
           git push
-
-      - name: Update data
-        if: steps.check_changes.outputs.changes == 'true'
-        env:
-          URL: ${{ secrets.URL }}
-          KEY: ${{ secrets.KEY }}
-        run: node update.js

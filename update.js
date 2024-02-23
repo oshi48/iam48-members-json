@@ -5,11 +5,15 @@ const URL = process.env.URL;
 const KEY = process.env.KEY;
 const filePath = "members.json";
 
-const main = async () => {
+const main = async (index) => {
   try {
     const data = fs.readFileSync(filePath, "utf8");
     const perChunk = 10;
-    const membersArrays = JSON.parse(data).reduce((all, one, i) => {
+    const members = JSON.parse(data)
+    const membersArrays = index
+    .filter(index => members[index]) // Filter out invalid indices
+    .map(index => members[index])
+    .reduce((all, one, i) => {
       const ch = Math.floor(i / perChunk);
       all[ch] = [].concat(all[ch] || [], one);
       return all;
@@ -77,4 +81,5 @@ const main = async () => {
   }
 };
 
-main();
+const index = process.argv.slice(2);
+main(index);
