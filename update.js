@@ -47,7 +47,7 @@ const main = async (index) => {
               country: member?.country,
               country_en: member?.countryEn,
               brand: member?.brand,
-              hashtags: JSON.stringify(member?.hashtags),
+              hashtags: member?.hashtags && JSON.stringify(member.hashtags),
               birthdate: member?.birthdate,
               graduated_at: member?.graduatedAt,
             };
