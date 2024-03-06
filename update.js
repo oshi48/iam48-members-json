@@ -1,16 +1,14 @@
 const fs = require("fs");
 const axios = require("axios");
 
-const URL = process.env.URL;
-const KEY = process.env.KEY;
 const filePath = "members.json";
 
-const main = async (index) => {
+const updateProfile = async (index) => {
   try {
     const data = fs.readFileSync(filePath, "utf8");
     const perChunk = 10;
     const members = JSON.parse(data)
-    const membersArrays = index
+    const membersArrays = index.trim().split(' ')
     .filter(index => members[index]) // Filter out invalid indices
     .map(index => members[index])
     .reduce((all, one, i) => {
@@ -56,11 +54,11 @@ const main = async (index) => {
       };
       const headers = {
         "Content-Type": "application/json",
-        "x-api-key": KEY,
+        "x-api-key": process.env.UPDATE_PROFILE_KEY,
       };
 
       try {
-        const res = await axios.post(URL, payload, { headers });
+        const res = await axios.post(process.env.UPDATE_PROFILE_URL, payload, { headers });
         const total = res.data.result?.total;
         console.log(`# ${idx + 1} : ${JSON.stringify(total)}\n`);
         results.push(total);
@@ -75,11 +73,57 @@ const main = async (index) => {
       results.reduce((sum, result) => sum + (result?.create || 0), 0);
     console.log(`Total update: ${totalUpdate}`);
     console.log(`Total create: ${totalCreate}`);
+    console.log('========== Done ==========')
   } catch (err) {
     console.error("Error:", err.message);
     process.exit(1);
   }
 };
 
-const index = process.argv.slice(2);
-main(index);
+const updateSNS = async (groupedKeys) => {
+  try {
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
+    const keysLines = groupedKeys.split('|')
+
+    const resultObject = keysLines.reduce((result, line) => {
+      const [key, ...indices] = line.split(/\s+/)
+      const keyExists = data.some(obj => obj.hasOwnProperty(key))
+      if (keyExists) {
+        result[key] = (result[key] || []).concat(indices
+          .map(index => ({ id: data[index]?.id }))
+          .filter(obj => obj.id !== undefined)
+        )
+      }
+      return result
+    }, {})
+
+    console.log('Working...')
+
+    await axios.post(process.env.UPDATE_SNS_URL, resultObject, { headers: {
+      "Content-Type": "application/json",
+      "x-api-key": process.env.UPDATE_SNS_KEY,
+    }})
+    console.log('======== Done ========')
+
+  } catch (err) {
+    console.error("Error:", err.message)
+    process.exit(1)
+  }
+}
+
+const arg = process.argv[2]
+switch (arg) {
+  case 'update_profile':
+    console.log('===== Update Profile =====')
+    const index = process.argv[3]
+    updateProfile(index)
+    break
+  case 'sns_update':
+    console.log('===== Update SNS =====')
+    const groupedKeys = process.argv[3]
+    updateSNS(groupedKeys)
+    break
+  default:
+    console.log('Invalid argument')
+    break
+}
