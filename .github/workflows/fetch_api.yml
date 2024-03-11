@@ -58,4 +58,5 @@ jobs:
         env:
           UPDATE_SNS_URL: ${{ secrets.UPDATE_SNS_URL }}
           UPDATE_SNS_KEY: ${{ secrets.UPDATE_SNS_KEY }}
-        run: node update.js sns_update "${{ steps.update-profile.outputs.sns_update }}"
+          sns_update: ${{ steps.update-profile.outputs.sns_update }}
+        run: node update.js sns_update "$sns_update"
