@@ -116,6 +116,7 @@ switch (arg) {
   case 'update_profile':
     console.log('===== Update Profile =====')
     const index = process.argv[3]
+    console.log('index:', index)
     updateProfile(index)
     break
   case 'sns_update':
