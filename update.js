@@ -8,7 +8,7 @@ const updateProfile = async (index) => {
     const data = fs.readFileSync(filePath, "utf8");
     const perChunk = 10;
     const members = JSON.parse(data)
-    const membersArrays = index.trim().split(' ')
+    const membersArrays = index.trim().split('|')
     .filter(index => members[index]) // Filter out invalid indices
     .map(index => members[index])
     .reduce((all, one, i) => {

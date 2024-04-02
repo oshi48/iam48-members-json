@@ -40,7 +40,7 @@ jobs:
           git config --local diff.gron.textconv gron
           diff=$(git diff --color=always members.json | perl -wlne 'print $1 if /^\e\[32m\+\e\[m\e\[32m(.*)\e\[m$/')
           updated_keys=$(echo "$diff" | awk -F '[][]' '{print $2, $3}' | sort -n)
-          update_profile=$(echo "$updated_keys" | grep -oE '^[0-9]+' | sort -nu | tr '\n' ' ')
+          update_profile=$(echo "$updated_keys" | grep -oE '^[0-9]+' | sort -nu | tr '\n' '|')
           echo "sns_update=$(echo "$updated_keys" | awk '{sub(/^\./, "", $2); a[$2]=a[$2]" "$1} END {for (k in a) print k a[k]}' | tr '\n' '|')" >> $GITHUB_OUTPUT
           echo $update_profile
           node update.js update_profile $update_profile
