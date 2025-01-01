@@ -141,7 +141,7 @@
     ],
     "isGiftEnabled": true,
     "birthdate": "2003-12-13",
-    "graduatedAt": null
+    "graduatedAt": "2024-12-31"
   },
   {
     "id": 7,
@@ -2607,7 +2607,7 @@
     "hashtags": null,
     "isGiftEnabled": true,
     "birthdate": "2001-03-14",
-    "graduatedAt": null
+    "graduatedAt": "2024-12-31"
   },
   {
     "id": 114,
