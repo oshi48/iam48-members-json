@@ -7,7 +7,7 @@ def fetch_user_agents():
     payload = {
         'browser': 'dalvik',
         'download': 'txt',
-        'limit': 2000,
+        'limit': '2000',
     }
     headers = {
         'Content-Type': 'application/x-www-form-urlencoded'
