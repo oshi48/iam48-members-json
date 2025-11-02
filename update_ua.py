@@ -6,7 +6,8 @@ def fetch_user_agents():
     url = 'https://user-agents.net/download'
     payload = {
         'browser': 'dalvik',
-        'download': 'txt'
+        'download': 'txt',
+        'limit': 2000,
     }
     headers = {
         'Content-Type': 'application/x-www-form-urlencoded'
