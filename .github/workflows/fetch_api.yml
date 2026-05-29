@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 9 * * *"
-    timezone: 'Asia/Bangkok'
+      timezone: 'Asia/Bangkok'
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
